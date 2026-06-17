@@ -1,0 +1,340 @@
+[Tue Jun  9 13:17:21 2026] PHP 8.2.12 Development Server (http://127.0.0.1:8000) started
+[Tue Jun  9 13:18:09 2026] 127.0.0.1:43739 Accepted
+[Tue Jun  9 13:18:09 2026] 127.0.0.1:43739 [200]: GET /index.php
+[Tue Jun  9 13:18:09 2026] 127.0.0.1:43739 Closing
+[Tue Jun  9 13:18:09 2026] 127.0.0.1:43740 Accepted
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43741 Accepted
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43740 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43742 Accepted
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43741 [200]: GET /output.css
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43742 [200]: GET /site.js
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43741 Closing
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43742 Closing
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43740 Closing
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43745 Accepted
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43745 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43746 Accepted
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43746 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43745 Closing
+[Tue Jun  9 13:18:10 2026] 127.0.0.1:43746 Closing
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43778 Accepted
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43778 [200]: GET /index.php
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43778 Closing
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43779 Accepted
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43780 Accepted
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43779 [200]: GET /output.css
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43781 Accepted
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43780 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43781 [200]: GET /site.js
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43779 Closing
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43781 Closing
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43780 Closing
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43782 Accepted
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43783 Accepted
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43782 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43783 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43782 Closing
+[Tue Jun  9 13:19:03 2026] 127.0.0.1:43783 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43864 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43864 [200]: GET /index.php
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43864 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43865 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43866 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43865 [200]: GET /output.css
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43867 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43866 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43868 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43867 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43868 [200]: GET /site.js
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43865 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43866 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43868 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43867 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43869 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43870 Accepted
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43869 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43870 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43869 Closing
+[Tue Jun  9 13:20:28 2026] 127.0.0.1:43870 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43903 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43903 [200]: GET /index.php
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43903 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43904 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43905 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43904 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43906 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43905 [200]: GET /output.css
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43907 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43906 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43907 [200]: GET /site.js
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43905 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43906 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43907 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43904 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43908 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43909 Accepted
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43908 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43909 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43908 Closing
+[Tue Jun  9 13:20:58 2026] 127.0.0.1:43909 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43922 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43922 [200]: GET /demos.php
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43922 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43923 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43924 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43923 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43925 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43924 [200]: GET /output.css
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43926 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43925 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43926 [200]: GET /site.js
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43924 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43925 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43926 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43923 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43927 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43928 Accepted
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43927 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43928 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43927 Closing
+[Tue Jun  9 13:21:17 2026] 127.0.0.1:43928 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43960 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43960 [200]: GET /demos.php
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43960 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43961 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43962 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43961 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43963 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43962 [200]: GET /output.css
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43964 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43963 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43964 [200]: GET /site.js
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43962 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43963 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43964 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43961 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43965 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43966 Accepted
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43965 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43966 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43965 Closing
+[Tue Jun  9 13:21:34 2026] 127.0.0.1:43966 Closing
+[Tue Jun  9 13:29:22 2026] 127.0.0.1:44275 Accepted
+[Tue Jun  9 13:33:11 2026] 127.0.0.1:44275 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jun  9 13:33:11 2026] 127.0.0.1:44275 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44462 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44462 [200]: GET /index.php
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44462 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44463 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44463 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44464 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44465 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44464 [200]: GET /output.css
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44466 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44465 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44466 [200]: GET /site.js
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44464 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44465 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44466 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44463 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44467 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44467 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44467 Closing
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44468 Accepted
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44468 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:33:35 2026] 127.0.0.1:44468 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44470 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44470 [200]: GET /demos.php
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44470 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44471 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44472 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44471 [200]: GET /output.css
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44473 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44472 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44473 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44471 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44472 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44473 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44474 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44474 [200]: GET /site.js
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44474 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44475 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44476 Accepted
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44475 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44476 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44475 Closing
+[Tue Jun  9 13:33:36 2026] 127.0.0.1:44476 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44820 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44820 [200]: GET /index.php
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44820 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44823 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44824 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44825 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44823 [200]: GET /output.css
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44824 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44826 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44825 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44826 [200]: GET /site.js
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44823 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44825 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44826 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44824 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44827 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44828 Accepted
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44827 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44828 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44827 Closing
+[Tue Jun  9 13:42:16 2026] 127.0.0.1:44828 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44921 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44921 [200]: GET /index.php
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44921 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44922 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44923 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44924 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44922 [200]: GET /output.css
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44923 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44925 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44924 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44925 [200]: GET /site.js
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44922 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44924 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44925 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44923 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44926 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44927 Accepted
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44926 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44927 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44926 Closing
+[Tue Jun  9 13:44:33 2026] 127.0.0.1:44927 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45066 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45066 [200]: GET /index.php
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45066 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45067 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45068 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45067 [200]: GET /output.css
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45069 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45068 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45070 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45069 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45070 [200]: GET /site.js
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45067 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45069 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45070 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45068 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45071 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45072 Accepted
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45071 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45072 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45071 Closing
+[Tue Jun  9 13:47:35 2026] 127.0.0.1:45072 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45188 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45188 [200]: GET /index.php
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45188 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45189 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45190 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45191 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45189 [200]: GET /output.css
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45190 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45192 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45191 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45192 [200]: GET /site.js
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45189 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45191 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45192 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45190 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45193 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45194 Accepted
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45193 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45194 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45193 Closing
+[Tue Jun  9 13:50:25 2026] 127.0.0.1:45194 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45251 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45251 [200]: GET /index.php
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45251 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45252 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45253 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45252 [200]: GET /output.css
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45254 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45253 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45255 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45254 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45255 [200]: GET /site.js
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45252 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45254 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45255 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45253 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45256 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45257 Accepted
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45256 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45257 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45256 Closing
+[Tue Jun  9 13:51:19 2026] 127.0.0.1:45257 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45323 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45323 [200]: GET /index.php
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45323 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45324 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45325 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45324 [200]: GET /output.css
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45326 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45325 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45327 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45326 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45327 [200]: GET /site.js
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45324 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45326 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45327 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45325 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45328 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45329 Accepted
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45328 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45329 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45328 Closing
+[Tue Jun  9 13:52:45 2026] 127.0.0.1:45329 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45387 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45387 [200]: GET /index.php
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45387 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45388 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45389 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45388 [200]: GET /output.css
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45390 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45389 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45391 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45390 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45391 [200]: GET /site.js
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45388 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45390 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45391 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45389 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45392 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45393 Accepted
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45392 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45393 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45392 Closing
+[Tue Jun  9 13:54:31 2026] 127.0.0.1:45393 Closing
+[Tue Jun  9 13:54:58 2026] 127.0.0.1:45417 Accepted
+[Tue Jun  9 13:54:58 2026] 127.0.0.1:45417 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:54:58 2026] 127.0.0.1:45417 Closing
+[Tue Jun  9 13:54:58 2026] 127.0.0.1:45419 Accepted
+[Tue Jun  9 13:54:58 2026] 127.0.0.1:45419 [200]: GET /index.php
+[Tue Jun  9 13:54:58 2026] 127.0.0.1:45419 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45543 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45543 [200]: GET /index.php
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45543 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45544 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45545 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45544 [200]: GET /output.css
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45546 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45545 [200]: GET /images/enterprise-operations-hero.png
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45547 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45546 [200]: GET /vendor/anime.min.js
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45547 [200]: GET /site.js
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45544 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45546 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45547 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45545 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45548 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45549 Accepted
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45548 [200]: GET /fonts/IBMPlexSans-Variable.ttf
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45549 [200]: GET /fonts/IBMPlexSans-Italic-Variable.ttf
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45548 Closing
+[Tue Jun  9 13:57:51 2026] 127.0.0.1:45549 Closing

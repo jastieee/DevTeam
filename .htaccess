@@ -1,0 +1,17 @@
+# Serve assets with correct MIME types (fixes "unstyled page" when the host
+# returns text/html for .css). Apache / LiteSpeed shared hosting.
+<IfModule mod_mime.c>
+    AddType text/css                                  .css
+    AddType application/javascript                     .js
+    AddType image/png                                  .png
+    AddType image/jpeg                                 .jpg .jpeg
+    AddType image/gif                                  .gif
+    AddType font/ttf                                   .ttf
+    AddType font/woff                                  .woff
+    AddType font/woff2                                 .woff2
+</IfModule>
+
+# Use index.php for directory requests
+<IfModule mod_dir.c>
+    DirectoryIndex index.php index.html
+</IfModule>

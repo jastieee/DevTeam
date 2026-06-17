@@ -1,0 +1,56 @@
+[10-Apr-2026 01:40:12 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'newton9_dev'@'localhost' (using password: YES) in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php:18
+Stack trace:
+#0 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php(18): PDO->__construct('mysql:host=loca...', 'newton9_dev', Object(SensitiveParameterValue), Array)
+#1 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php(38): db()
+#2 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php on line 18
+[10-Apr-2026 01:41:29 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'newton9_dev'@'localhost' (using password: YES) in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php:18
+Stack trace:
+#0 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php(18): PDO->__construct('mysql:host=loca...', 'newton9_dev', Object(SensitiveParameterValue), Array)
+#1 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php(38): db()
+#2 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php on line 18
+[10-Apr-2026 01:41:58 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'newton9_dev'@'localhost' (using password: YES) in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php:18
+Stack trace:
+#0 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php(18): PDO->__construct('mysql:host=loca...', 'newton9_dev', Object(SensitiveParameterValue), Array)
+#1 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php(38): db()
+#2 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php on line 18
+[10-Apr-2026 02:19:53 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'newtconfig'@'localhost' (using password: YES) in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php:28
+Stack trace:
+#0 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php(28): PDO->__construct('mysql:host=loca...', 'newtconfig', Object(SensitiveParameterValue), Array)
+#1 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/worker.php(8): job_db()
+#2 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php on line 28
+[10-Apr-2026 02:20:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php on line 38
+[10-Apr-2026 02:20:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php on line 38
+[10-Apr-2026 02:20:52 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'newtconfig'@'localhost' (using password: YES) in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php:28
+Stack trace:
+#0 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php(28): PDO->__construct('mysql:host=loca...', 'newtconfig', Object(SensitiveParameterValue), Array)
+#1 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/worker.php(8): job_db()
+#2 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php on line 28
+[10-Apr-2026 02:21:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php on line 38
+[10-Apr-2026 02:22:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php on line 38
+[10-Apr-2026 02:22:48 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php:38
+Stack trace:
+#0 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php on line 38
+[10-Apr-2026 02:25:33 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'newtconfig'@'localhost' (using password: YES) in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php:28
+Stack trace:
+#0 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php(28): PDO->__construct('mysql:host=loca...', 'newtconfig', Object(SensitiveParameterValue), Array)
+#1 /home1/newtont9/devteam.newtonscanning.com.ph/3toys/agent.php(38): job_db()
+#2 {main}
+  thrown in /home1/newtont9/devteam.newtonscanning.com.ph/3toys/config.php on line 28
