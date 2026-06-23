@@ -11,6 +11,31 @@ $demos = [
         'cta' => 'Open demo',
         'icon' => 'fi fi-rr-box-open',
     ],
+
+    [
+        'title' => 'WMS Demo Platform',
+        'summary' => 'Receiving, putaway, picking, packing, and dispatch — the full warehouse cycle in one connected workflow.',
+        'status' => 'live',
+        'status_label' => 'Live demo',
+        'area' => 'WMS',
+        'tags' => ['Receiving', 'Picking', 'Dispatching'],
+        'url' => 'WMS/index.php',
+        'cta' => 'Open demo',
+        'icon' => 'fi fi-rr-warehouse-alt',
+    ],
+
+    [
+    'title' => 'CRM Demo Platform',
+    'summary' => 'Contacts, sales pipeline, interactions, and activity tracking on one centralized platform.',
+    'status' => 'live',
+    'status_label' => 'Live demo',
+    'area' => 'CRM',
+    'tags' => ['Contacts', 'Pipeline', 'Deals'],
+    'url' => 'CRM/index.php',
+    'cta' => 'Open demo',
+    'icon' => 'fi fi-rr-users-alt',
+    ],
+
     [
         'title' => 'RFID Asset Tracking',
         'summary' => 'Traceable asset movement, audit events, and location checks.',
