@@ -73,7 +73,42 @@ $projects = [
         'cta' => 'Open demo',
         'icon' => 'fi fi-rr-box-open',
     ],
-    
+    [
+        'title' => 'WMS Demo Platform',
+        'summary' => 'Receiving, putaway, picking, packing, and dispatch in one connected warehouse workflow.',
+        'status' => 'live',
+        'status_label' => 'Live demo',
+        'impact' => 'Warehouse flow',
+        'workflow' => 'Receiving to dispatch',
+        'tags' => ['Receiving', 'Picking', 'Dispatching'],
+        'url' => 'WMS/index.php',
+        'cta' => 'Open demo',
+        'icon' => 'fi fi-rr-warehouse-alt',
+    ],
+    [
+        'title' => 'CRM Demo Platform',
+        'summary' => 'Contacts, sales pipeline, interactions, and activity tracking on one centralized platform.',
+        'status' => 'live',
+        'status_label' => 'Live demo',
+        'impact' => 'Sales visibility',
+        'workflow' => 'Contacts and pipeline',
+        'tags' => ['Contacts', 'Pipeline', 'Deals'],
+        'url' => 'CRM/index.php',
+        'cta' => 'Open demo',
+        'icon' => 'fi fi-rr-users-alt',
+    ],
+    [
+        'title' => 'RFID Asset Tracking',
+        'summary' => 'Traceable asset movement, audit events, and location checks for controlled operations.',
+        'status' => 'preview',
+        'status_label' => 'Preview',
+        'impact' => 'Asset traceability',
+        'workflow' => 'RFID audit trail',
+        'tags' => ['RFID', 'Audit', 'Assets'],
+        'url' => 'index.php#contact',
+        'cta' => 'Request access',
+        'icon' => 'fi fi-rr-rss',
+    ],
 ];
 
 $standards = [
@@ -113,6 +148,9 @@ $standards = [
     <title>Newton Enterprise Demos</title>
     <link rel="preload" as="image" href="images/enterprise-operations-hero.png">
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap">
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
@@ -129,10 +167,9 @@ $standards = [
 
         <ul class="nav-links">
             <li><a href="#hero" class="active" data-nav-link>Home</a></li>
-            <li><a href="#projects" data-nav-link>Projects</a></li>
             <li><a href="#standards" data-nav-link>Standards</a></li>
+            <li><a href="#projects" data-nav-link>Projects</a></li>
             <li><a href="#contact" data-nav-link>Contact</a></li>
-            <li><a href="demos.php">Demos</a></li>
         </ul>
 
         <div class="nav-actions">
@@ -146,10 +183,10 @@ $standards = [
 
 <div class="mobile-panel" data-mobile-panel>
     <a href="#hero">Home</a>
-    <a href="#projects">Projects</a>
     <a href="#standards">Standards</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
-    <a href="demos.php">Demos</a>
+    <a href="demos.php">View demos</a>
 </div>
 
 <main>
@@ -160,13 +197,13 @@ $standards = [
 
         <div class="hero-content container">
             <div class="hero-copy">
-
+                
                 <h1 class="hero-title">
                     <span class="word">Software</span>
                     <span class="word">demos</span><br>
                     <span class="word">for</span>
-                    <span class="word">operational</span>
-                    <span class="word">teams.</span>
+                    <span class="word accent">operational</span>
+                    <span class="word accent">teams.</span>
                 </h1>
                 <p class="hero-summary">
                     Barcode, RFID, inventory, mobile data, and custom software workflows aligned to real business processes.
@@ -196,35 +233,16 @@ $standards = [
                 </div>
             </div>
 
-            <aside class="flow-panel" aria-label="Demo workflow map">
-
-                <div class="flow-map">
-                    <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-                        <path class="flow-line" d="M50 50 L26 23" />
-                        <path class="flow-line" d="M50 50 L76 37" />
-                        <path class="flow-line" d="M50 50 L27 78" />
-                        <path class="flow-line" d="M50 50 L74 76" />
-                    </svg>
-                    <span class="flow-hub" aria-hidden="true"></span>
-                    <div class="flow-node one">
-                        <b>Inventory</b>
-                        <span>Stock and assets</span>
-                    </div>
-                    <div class="flow-node two">
-                        <b>RFID</b>
-                        <span>Traceability</span>
-                    </div>
-                    <div class="flow-node three">
-                        <b>Mobile</b>
-                        <span>Field capture</span>
-                    </div>
-                    <div class="flow-node four">
-                        <b>Reports</b>
-                        <span>Review and audit</span>
-                    </div>
-                    <span class="signal-dot a" aria-hidden="true"></span>
-                    <span class="signal-dot b" aria-hidden="true"></span>
-                </div>
+            <aside class="flow-panel" aria-label="Custom development illustration">
+                <!-- Lottie animation "Developer" created by Chase Gee. -->
+                <lottie-player
+                    class="hero-lottie"
+                    src="images/developer.json"
+                    background="transparent"
+                    speed="1"
+                    loop
+                    autoplay
+                ></lottie-player>
             </aside>
         </div>
     </section>
@@ -266,16 +284,41 @@ $standards = [
         </div>
     </section>
 
+    <section class="section section-muted" id="standards" data-nav-section>
+        <div class="container standards-layout">
+            <div>
+                <p class="section-kicker">Enterprise fit</p>
+                <h2 class="section-title">Less demo theater. More operational proof.</h2>
+                <p class="section-copy">
+                    Each showcase focuses on workflows, controls, and device realities that matter during implementation.
+                </p>
+            </div>
+
+            <div class="standard-list">
+                <?php foreach ($standards as $standard): ?>
+                <div class="standard-item">
+                    <i class="<?= htmlspecialchars($standard['icon']) ?>" aria-hidden="true"></i>
+                    <div>
+                        <strong><?= htmlspecialchars($standard['title']) ?></strong>
+                        <span><?= htmlspecialchars($standard['copy']) ?></span>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
     <section class="section section-demos" id="projects" data-nav-section>
         <div class="demos-bg" aria-hidden="true">
             <img src="images/2.jpg" alt="">
             <span class="demos-bg-shade"></span>
+            <canvas class="tech-bg" data-tech-bg></canvas>
         </div>
 
         <div class="container demos-inner">
             <div class="section-head section-head-light">
                 <div>
-                    <p class="section-kicker">Demo portfolio</p>
+                    
                     <h2 class="section-title">Demo apps with enterprise use cases.</h2>
                 </div>
             </div>
@@ -298,11 +341,13 @@ $standards = [
                 <div class="demos-viewport">
                     <div class="demos-track" data-projects-track>
                         <?php foreach ($projects as $index => $project): ?>
+                        <?php $cardImage = $project['image'] ?? ('images/' . (($index % 4) + 1) . '.jpg'); ?>
                         <article
                             class="project-card demos-slide<?= $index === 0 ? ' is-active' : '' ?>"
                             data-projects-slide
                             aria-roledescription="slide"
                             aria-label="<?= ($index + 1) . ' of ' . count($projects) ?>"
+                            style="--card-image: url('<?= htmlspecialchars($cardImage) ?>')"
                         >
                             <div class="card-top">
                                 <span class="project-index"><i class="<?= htmlspecialchars($project['icon']) ?>" aria-hidden="true"></i></span>
@@ -360,30 +405,6 @@ $standards = [
                     ></button>
                     <?php endforeach; ?>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section section-muted" id="standards" data-nav-section>
-        <div class="container standards-layout">
-            <div>
-                <p class="section-kicker">Enterprise fit</p>
-                <h2 class="section-title">Less demo theater. More operational proof.</h2>
-                <p class="section-copy">
-                    Each showcase focuses on workflows, controls, and device realities that matter during implementation.
-                </p>
-            </div>
-
-            <div class="standard-list">
-                <?php foreach ($standards as $standard): ?>
-                <div class="standard-item">
-                    <i class="<?= htmlspecialchars($standard['icon']) ?>" aria-hidden="true"></i>
-                    <div>
-                        <strong><?= htmlspecialchars($standard['title']) ?></strong>
-                        <span><?= htmlspecialchars($standard['copy']) ?></span>
-                    </div>
-                </div>
-                <?php endforeach; ?>
             </div>
         </div>
     </section>
@@ -458,6 +479,7 @@ $standards = [
     </div>
 </footer>
 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
 <script src="vendor/anime.min.js"></script>
 <script src="site.js"></script>
 </body>

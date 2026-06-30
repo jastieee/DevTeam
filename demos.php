@@ -113,6 +113,9 @@ $demos = [
     <title>Demo Catalog - Newton Enterprise Demos</title>
     <link rel="preload" as="image" href="images/enterprise-operations-hero.png">
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap">
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
@@ -128,8 +131,8 @@ $demos = [
 
         <ul class="nav-links">
             <li><a href="index.php#hero">Home</a></li>
-            <li><a href="index.php#projects">Projects</a></li>
             <li><a href="index.php#standards">Standards</a></li>
+            <li><a href="index.php#projects">Projects</a></li>
             <li><a href="index.php#contact">Contact</a></li>
             <li><a href="demos.php" class="active">Demos</a></li>
         </ul>
@@ -145,23 +148,35 @@ $demos = [
 
 <div class="mobile-panel" data-mobile-panel>
     <a href="index.php#hero">Home</a>
-    <a href="index.php#projects">Projects</a>
     <a href="index.php#standards">Standards</a>
+    <a href="index.php#projects">Projects</a>
     <a href="index.php#contact">Contact</a>
     <a href="demos.php">Demos</a>
 </div>
 
 <main>
     <section class="catalog-hero">
-        <div class="container">
-         
-            <h1 class="catalog-title">Enterprise project previews, ready to evaluate.</h1>
+        <span class="catalog-glow" aria-hidden="true"></span>
+        <div class="container catalog-hero-inner">
+           
+            <h1 class="catalog-title">
+                Enterprise project previews,
+                <span class="catalog-title-accent">ready to evaluate.</span>
+            </h1>
             <p class="catalog-summary">
                 A focused catalog for barcode, RFID, inventory, mobility, reporting, and custom software workflows.
             </p>
+            <div class="catalog-actions">
+                <a href="#demo-list-title" class="btn btn-primary">
+                    Browse demos
+                    <i class="fi fi-rr-arrow-small-down" aria-hidden="true"></i>
+                </a>
+                <a href="index.php#contact" class="btn btn-secondary">Request walkthrough</a>
+            </div>
+            <?php $liveCount = count(array_filter($demos, fn($d) => $d['status'] === 'live')); ?>
             <div class="catalog-meta">
-                <span><?= count($demos) ?> demos listed</span>
-                <span>1 live environment</span>
+                <span class="dot-live"><?= count($demos) ?> demos listed</span>
+                <span class="dot-live"><?= $liveCount ?> live environment<?= $liveCount === 1 ? '' : 's' ?></span>
                 <span>Private walkthroughs available</span>
             </div>
         </div>
@@ -171,6 +186,7 @@ $demos = [
         <div class="demos-bg" aria-hidden="true">
             <img src="images/4.jpg" alt="">
             <span class="demos-bg-shade"></span>
+            <canvas class="tech-bg" data-tech-bg></canvas>
         </div>
 
         <div class="container demos-inner">
@@ -199,11 +215,13 @@ $demos = [
                 <div class="demos-viewport">
                     <div class="demos-track" data-projects-track>
                         <?php foreach ($demos as $index => $demo): ?>
+                        <?php $cardImage = $demo['image'] ?? ('images/' . (($index % 4) + 1) . '.jpg'); ?>
                         <article
                             class="demo-card demos-slide<?= $index === 0 ? ' is-active' : '' ?>"
                             data-projects-slide
                             aria-roledescription="slide"
                             aria-label="<?= ($index + 1) . ' of ' . count($demos) ?>"
+                            style="--card-image: url('<?= htmlspecialchars($cardImage) ?>')"
                         >
                             <div class="card-top">
                                 <span class="demo-icon"><i class="<?= htmlspecialchars($demo['icon']) ?>" aria-hidden="true"></i></span>
@@ -222,7 +240,6 @@ $demos = [
                             </div>
 
                             <div class="demo-foot">
-                                <small><?= htmlspecialchars($demo['area']) ?></small>
                                 <a href="<?= htmlspecialchars($demo['url']) ?>" class="card-link">
                                     <?= htmlspecialchars($demo['cta']) ?>
                                     <i class="fi fi-rr-arrow-right" aria-hidden="true"></i>
